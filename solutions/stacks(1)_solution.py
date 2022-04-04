@@ -16,15 +16,15 @@ def last_digit(numbers):
     for x in numbers: #iterate through numbers
         stack.append(x) #push all numbers to stack in order
 
-        if stack.pop() == 8: #check to see if number on top is 8
-            return True
-        else:
-            return False
+    if stack.pop() == 8: #check to see if number on top is 8
+        return True
+    else:
+        return False
 
 
 
 list_1 = [9, 5, 4, 2, 5, 7, 3, 1, 8, 5] 
-list_2 = [8, 7, 2, 5, 5]
+list_2 = [6, 7, 2, 5, 8]
 list_3 = [2, 5, 8, 4, 1, 9, 4, 5, 3, 3, 2, 4]
 
 print(stack(list_1))

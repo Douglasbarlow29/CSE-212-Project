@@ -6,7 +6,7 @@ A set is basically a list of values in no particular order. A set is similar to 
 
 Hashing is a way of assigning each piece of data an integer value in order for it to be easily accessible and unable to duplicate. An example of this would be if you were to have a list of numbers 0-9 and you wanted to achieve O(1) time when adding, removing, and checking on this list. What you would do is assign each number a specific index and then you could call on that number at any moment with the code: index(n) = n. Below is a visual representation of what this would look like.
 
-![Alternate Text to Display](hashing_1.png)
+![Alternate Text to Display](pictures/hashing_1.png)
 
 Something interesting about the list above is that it is not guaranteed to be completely filled up. There can be gaps in it. This is called a sparse list. This sparse list is also known as a set. Before we talked about how sets could not be duplicated. If you look at the visual above you will see that there is only one place for each specific value. This means that no duplicates can be made because there would be no where to put them.
 
@@ -14,7 +14,7 @@ Something interesting about the list above is that it is not guaranteed to be co
 
 An issue that can be faced with larger groups of numbers is that in order to achieve the preferred O(1) performance you would need to make a list as big as the numbers go. For numbers 0 - 1,000,000 you would need a list the size of one million. If you only wanted to store a few values out of that many numbers than it would be an immense amount of overkill to make a sparse list that big. Something that could be done is using the code: index(n) = n % 10 which would see if the number is divisible by ten and leave it's remainder. Below is an example:
 
-![Alternate Text to Display](hashing_2.jpg)
+![Alternate Text to Display](pictures/hashing_2.jpg)
 
 When given the numbers (1, 2, 3, 4, 5, 26, and 17) you don't need a list the size of 26 to put them in a list with an integer value to represent them. All you need to do is use the code: index(n) = n % 10 (or in this case hashFunction(k) = k % 10). This puts each value in a specific location so as to achieve O(1) performance while minimizing the size of the list.
 
@@ -63,7 +63,7 @@ This is a simple example of how to add numbers to a set
 In this section you will need to solve a problem involving sets. Take the two lists of numbers given and combine them into a set without repeating any numbers
 '''
 def sparse_list(num_1, num_2):
-
+    pass
 
 
 
@@ -72,6 +72,12 @@ num_2 = [3, 6, 10, 15, 20, 12, 15, 4, 6, 8]
 
 print(sparse_list(num_1, num_2)) #The output should be {0, 1, 2, 3, 4, 5, 6, 8, 9, 10, 12, 15, 20}
 ```
+[Problem](problems/set(1)problem.py)
+
 Below is a solution to check your answer with
 
-[Text To Display](sets(1)solution.py)
+[Solution](solutions/sets(1)solution.py)
+
+Link back to Welcome page:
+
+[Welcome](welcome.md)
