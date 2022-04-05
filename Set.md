@@ -72,12 +72,10 @@ num_2 = [3, 6, 10, 15, 20, 12, 15, 4, 6, 8]
 
 print(sparse_list(num_1, num_2)) #The output should be {0, 1, 2, 3, 4, 5, 6, 8, 9, 10, 12, 15, 20}
 ```
-[Problem](problems/set(1)problem.py)
+Below is a link to the problem, the solution, and a link to get back to the welcome page:
 
-Below is a solution to check your answer with
+* [Problem](problems/set(1)problem.py)
 
-[Solution](solutions/sets(1)solution.py)
+* [Solution](solutions/sets(1)solution.py)
 
-Link back to Welcome page:
-
-[Welcome](welcome.md)
+* [Welcome Page](welcome.md)

@@ -127,12 +127,10 @@ print(last_digit(list_2)) #Output: True
 print(last_digit(list_3)) #Output: False
 
 ```
-[Problem](problems/stacks(1)problem.py)
+Below is a link to the problem, the solution, and a link to get back to the welcome page:
 
-Below is a solution to check your answer with:
+* [Problem](problems/stacks(1)problem.py)
 
-[Solution](solutions/stacks(1)_solution.py)
+* [Solution](solutions/stacks(1)_solution.py)
 
-Link back to Welcome page:
-
-[Welcome](welcome.md)
+* [Welcome Page](welcome.md)
